@@ -13,7 +13,7 @@ namespace Persistence
                 var Posts = new List<Post>
             {
               new Post {
-                Title = "First post!",
+                Title = "first post!",
                 Date = DateTime.Now.AddDays(-10),
                 Body = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
               },
