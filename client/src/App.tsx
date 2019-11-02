@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import axios from 'axios';
 
-
 class App extends React.Component {
   state = {
    
@@ -31,7 +30,7 @@ class App extends React.Component {
         <header className="App-header">
           BlogBox
         </header>
-        
+      
         <main>
           {posts.map((post: any) =>
             <div key={post.id}>
